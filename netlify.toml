@@ -1,0 +1,7 @@
+[build]
+  functions = "functions" # Path to your serverless functions
+
+[[redirects]]
+  from = "/bfhl"
+  to = "/.netlify/functions/bfhl"
+  status = 200
